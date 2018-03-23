@@ -29,18 +29,30 @@ namespace StringCompress
             Console.WriteLine(compressedString);
             Console.ReadLine();
 
-            // This method just tests to see if the two strings are the same or not and returns a boolean result
+            // This method just tests to see if compression would even shorten the string and returns a boolean result
             bool SameString(StringBuilder s)
             {
+                int count = 1;
                 for (int j = 0; j < s.Length - 1; j++)
                 {
                     if (s[j] == s[j + 1])
                     {
-                        return false;
+                        count--;
+                    }
+                    else if (s[j] != s[j+1])
+                    {
+                        count++;
                     }
                 }
-
-                return true;
+                
+                if (count >= 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             
             // This method compresses the string to the form described in the program description.
