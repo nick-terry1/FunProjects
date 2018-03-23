@@ -13,4 +13,8 @@ The average calorie content for a cup of cat food and a 6 oz. can of cat food wa
 
 This program was originally a challenge on the website [HackerRank.com](https://www.hackerrank.com/challenges/30-binary-numbers/problem) 
 but I had a lot of fun making it and it can be useful to some extent so I figured I'd put it up here. Nothing was stolen from HackerRank the 
-entire program was built from scratch, the idea for it simply came from them.
+entire program was built from scratch, the idea for it simply came from them.  
+
+### Project StringCompress  
+
+This program takes a user input string and compresses it to a form that deletes all repeated sequential characters and inserts a number in its place. If the string can't be compressed it returns the original string. The algorithm has a complexity of O(n).
