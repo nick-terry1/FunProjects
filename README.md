@@ -18,3 +18,10 @@ entire program was built from scratch, the idea for it simply came from them.
 ### Project StringCompress  
 
 This program takes a user input string and compresses it to a form that deletes all repeated sequential characters and inserts a number in its place. If the string can't be compressed it returns the original string. The algorithm has a complexity of O(n).
+  
+### Project BasilBodyTemp
+
+This is for women who are trying to get pregnant by predicting when they are ovulating. The program does this by allowing the user to input their Basil Body
+Temperature (BBT) once a day and finding trends in those values and outputting whether youre ovulating or the last date you were ovulating. It also lets the user 
+delete data in case they want to start over or just accidentally input the wrong temperature. The information on reading trends in BBT came from two websites, 
+[WikiHow.com](https://www.wikihow.com/Take-Your-Basal-Body-Temperature) and [FertilityPlus.com](http://www.fertilityplus.com/faq/bbt/bbtfaq.html). Credit Beth Terry for the program idea. 
