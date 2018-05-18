@@ -20,3 +20,14 @@ Temperature (BBT) once a day and finding trends in those values and outputting w
 delete data in case they want to start over or just accidentally input the wrong temperature. All data is inserted into a database and saved 
 using LINQ and SQL Server. The information on reading trends in BBT came from two websites, 
 [WikiHow.com](https://www.wikihow.com/Take-Your-Basal-Body-Temperature) and [FertilityPlus.com](http://www.fertilityplus.com/faq/bbt/bbtfaq.html). Credit Beth Terry for the program idea. 
+
+### Project Song Analysis 
+
+This program will take the lyrics from the top 100 songs overall, and top 100 country, hip hop, rock, and pop songs,
+ gathered from the website [Metrolyrics.com](https://www.metrolyrics.com). All stop words (words like 'a' 'the' and 'and') are deleted along with all punctuation, 
+ and numbers. It then stores the remaining words in a database along with their frequency of use and creates a word cloud bitmap
+ image to display visually the top words used in the top 100 songs of today. 
+  
+ It also tests a randomly input song to see what genre of music it is (country, hip hop, pop, or rock only) based only on the 
+ lyrics of that song by seperating all the words that are used exclusively with each genre, comparing those with the words of the 
+ sample song, and seeing which genre it most closely matches.
